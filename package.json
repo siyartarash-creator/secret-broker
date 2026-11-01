@@ -1,0 +1,12 @@
+{
+  "name": "secret-broker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Use API keys through an allowlisted broker without exposing their values to the model",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "cli": "node src/cli.js"
+  }
+}
